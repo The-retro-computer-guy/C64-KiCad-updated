@@ -2,7 +2,7 @@
 
 A replica of the Commodore 64 250407 1983 mother board, and the schematics.
 
-The replica project was started by Michael K. (Der Alte Bastler) in 2019 to learn SprintLayout and the process of reverse engineering PCB. I finished it, importet it in KiCad, imported the KU motherboard schematics and modified it to match the 250407 Reb.B schematics.
+The replica project was started by Michael K. (Der Alte Bastler) in 2019 to learn SprintLayout and the process of reverse engineering Printed circut boards. I finished it, imported it into KiCad, imported the KU motherboard schematics and modified it to match the 250407 Reb.B schematics.
 
 The board has been prototyped, and tested by me and Langwell Cowan.
 
@@ -20,16 +20,17 @@ http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/index.html
 
 # Interactive-BOM
 
-[The interactive bom html page](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/C64-250407-Replica-KiCad/main/interactive-bom/ibom.html) is useful for assembling the board and finding signal traces by using a web browser. Try it here. For a BOM for ordering parts see the BOM above.
+[The interactive bom html page](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/C64-250407-Replica-KiCad/main/interactive-bom/ibom.html) is useful for assembling the board and finding signal traces by using a web browser. Try it here. Check the other BOM for par numbers and values.
 
 ![alt text](ibom-preview.png)
 
 # Schematics
 
-Download the PDF file [250407_.pdf](250407_.pdf) for a high quality schematics.
+Download the PDF file [250407_.pdf](250407_.pdf) for high quality schematics.
 Checkout [this tweet](https://twitter.com/paulrickards/status/1371988589974847492) by Paul Rickards where he plots the KU motherboard schematics KU-14194HB :-)
 
 # Change log
+- 2024-07-20: Readme.md edited and spellchecked
 - 2022-08-18: Schematics V1.2: symbol and ERC fixes (Pull request from Gabriele Gorla/GGLABS)
 - 2020-06-19: PCB and schematics V1.1: First release
 - 2020-04-22: PCB and schematics V1.0: Prototype
