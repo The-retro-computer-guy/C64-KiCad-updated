@@ -20,7 +20,7 @@ http://www.zimmers.net/anonftp/pub/cbm/schematics/computers/c64/index.html
 
 # Interactive-BOM
 
-[The interactive bom html page](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/C64-250407-Replica-KiCad/main/interactive-bom/ibom.html) is useful for assembling the board and finding signal traces by using a web browser. Try it here. Check the other BOM for par numbers and values.
+[The interactive bom html page](https://htmlpreview.github.io/?https://raw.githubusercontent.com/bwack/C64-250407-Replica-KiCad/main/interactive-bom/ibom.html) is useful for assembling the board and finding signal traces by using a web browser. Try it here. Check the other BOM for part numbers and values.
 
 ![alt text](ibom-preview.png)
 
