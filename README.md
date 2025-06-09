@@ -2,11 +2,11 @@
 
 A replica of the Commodore 64 250407 1983 mother board, and the schematics.
 
-The replica project was started by Michael K. (Der Alte Bastler) in 2019 to learn SprintLayout and the process of reverse engineering PCB. I finished it, importet it in KiCad, imported the KU motherboard schematics and modified it to match the 250407 Reb.B schematics.
+The replica project was started by Michael K. (Der Alte Bastler) in 2019 to learn SprintLayout, and the process of reverse engineering PCB. I finished the layout in SprintLayout, and imported it to KiCad. The KU motherboard schematics is nowhere to be found on the internet. I used the 250407 Reb.B schematics as reference and modified it to match the KU motherboard layout.
 
 The board has been prototyped, and tested by me and Langwell Cowan.
 
-We are not the first to reverse engineer this board, but we are the first to share the design files online I think.
+We are not the first to reverse engineer this board, but we are the first to share the design files online.
 
 ![screenshot top](250407_3D_top.png)
 ![screenshot bottom](250407_3D_bottom.png)
@@ -30,6 +30,8 @@ Download the PDF file [250407_.pdf](250407_.pdf) for a high quality schematics.
 Checkout [this tweet](https://twitter.com/paulrickards/status/1371988589974847492) by Paul Rickards where he plots the KU motherboard schematics KU-14194HB :-)
 
 # Change log
+- 2025-06-09: PCB and Schematics V1.3: PAL-NTSC jumpers fox. Thank you, Fred Sauer!
+Note: V1.3 was opened and saved in KiCAD 9.0.1. I've verified the new gerbers. Things to beware of I you want to modify the design: 1. If you try to load changes from schematic into the PCBNew, KiCAD will require you to annotate the schematics, which in turn will replace all the resistor array sub parts. Example R1A will become R1A1, which will turn into new parts in PCBNew. Therefore I have not done that in this update. I have only changed the silkscreen, and I have only edited the schematics. 2. KiCAD will ask you to refill the zone fills. I have not done that because it also warns you about some change in fill-constrains. I don't remember exactly what, but I did not refill the fill zones when going to V1.3.
 - 2022-08-18: Schematics V1.2: symbol and ERC fixes (Pull request from Gabriele Gorla/GGLABS)
 - 2020-06-19: PCB and schematics V1.1: First release
 - 2020-04-22: PCB and schematics V1.0: Prototype
@@ -45,7 +47,7 @@ Part 1-4:
 
 # License and Disclaimer
 
-Copyright Bwack 2021
+Copyright Bwack 2025
 
 This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
 
